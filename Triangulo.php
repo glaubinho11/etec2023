@@ -5,12 +5,13 @@ $valor3 = $_POST[L3];
 
 if ($valor1 == $valor2 && $valor2 == $valor3) {
     
-    echo "a classificação do triangulo é equilátero";
+ 
 }
 
 elseif ($valor1 == $valor2 && $valor2 != $valor3) {
     
     echo "a classificação do triangulo é isósceles";
+     echo "a classificação do triangulo é isóscele";
 }
 
 else {
